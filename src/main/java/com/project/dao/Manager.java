@@ -96,4 +96,25 @@ public class Manager {
     public static Autor addAutor(String name) {
         return null;
     }
+
+    public static Llibre addLlibre(String s, String cienAñosDeSoledad, String vintageEspañol, int i) {
+    }
+
+    public static boolean collectionToString(Class<Autor> autorClass, Collection<Autor> autors) {
+    }
+
+    public static Object listCollection(Class<Autor> autorClass) {
+    }
+
+    public static Biblioteca addBiblioteca(String bibliotecaCentral, String barcelona, String s, String number, String mail) {
+    }
+
+    public static Exemplar addExemplar(String s, Llibre llibre100, Biblioteca bibCentre) {
+    }
+
+    public static Persona addPersona(String s, String pereSoler, String number, String mail) {
+    }
+
+    public static Prestec addPrestec(Exemplar ex1001, Persona persona1, LocalDate avui, LocalDate localDate) {
+    }
 }

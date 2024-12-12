@@ -8,11 +8,10 @@ import java.util.Set;
 @Entity
 @Table(name = "biblioteques")
 public class Biblioteca implements Serializable {
-    /*
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("Biblioteca[id=%d, nom='%s', ciutat='%s'", 
+        sb.append(String.format("Biblioteca[id=%d, nom='%s', ciutat='%s'",
             bibliotecaId, nom, ciutat));
         
         if (adreca != null) {
@@ -52,5 +51,4 @@ public class Biblioteca implements Serializable {
     public int hashCode() {
         return Long.hashCode(bibliotecaId);
     }
-    */
 }
